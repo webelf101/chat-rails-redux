@@ -26,17 +26,20 @@ users_attributes = [
   {
     email:         'lego@dog.com',
     password:      '123456',
-    password_confirmation: '123456'
+    password_confirmation: '123456',
+    nickname: 'lego'
   },
   {
     email:         'hacker@email.com',
     password:      '123456',
-    password_confirmation: '123456'
+    password_confirmation: '123456',
+    nickname: 'hacker'
   },
   {
     email:         'chatty@email.com',
     password:      '123456',
-    password_confirmation: '123456'
+    password_confirmation: '123456',
+    nickname: 'chatty'
   }
 ]
 User.create!(users_attributes)
