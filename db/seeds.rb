@@ -50,46 +50,55 @@ messages_attributes = [
   {
     channel_id: 1,
     user_id: 1,
+    nickname: User.find(1).nickname,
     content: "Hello! I'm new here!"
   },
   {
     channel_id: 1,
     user_id: 2,
+    nickname: User.find(2).nickname,
     content: "Welcome!"
   },
   {
     channel_id: 1,
     user_id: 3,
+    nickname: User.find(3).nickname,
     content: "Aww nice to meet you!"
   },
     {
     channel_id: 2,
     user_id: 1,
+    nickname: User.find(1).nickname,
     content: "React is tough!"
   },
   {
     channel_id: 2,
     user_id: 2,
+    nickname: User.find(2).nickname,
     content: "You just need more practice!"
   },
   {
     channel_id: 2,
     user_id: 3,
+    nickname: User.find(3).nickname,
     content: "Redux is hard too!"
   },
     {
     channel_id: 3,
     user_id: 1,
+    nickname: User.find(1).nickname,
     content: "I love dogs! Although cats are cool too."
   },
   {
     channel_id: 3,
     user_id: 2,
+    nickname: User.find(2).nickname,
     content: "I like big dogs."
   },
   {
     channel_id: 3,
     user_id: 3,
+    nickname: User.find(3).nickname,
     content: "I love pommies!"
   }
 ]
