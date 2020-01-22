@@ -12,8 +12,6 @@ Chat your heart away! You need to sign up first though....
 - Webpack
 - Babel with es2015 and react presets
 
-Clone this repo and run ```yarn start```
-
 Eventually plan to add in Action Cable.
 
 Template courtesy of [here](https://github.com/lewagon/rails-templates), created by the [Le Wagon](https://www.lewagon.com) team.
