@@ -8,7 +8,7 @@ class App extends React.Component {
     return (
       <div className="messaging-wrapper">
         <div className="logo-container">
-          <img className="messaging-logo" src="" alt="logo" />
+          <i className="fas fa-comment-dots"></i>
         </div>
         <ChannelList selectedChannel={this.props.match.params.channel} />
         <MessageList selectedChannel={this.props.match.params.channel} />
